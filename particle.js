@@ -91,10 +91,10 @@ function animate() {
 animate();
 
 
-window.addEventListener('resize', () => {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-});
+// window.addEventListener('resize', () => {
+//     canvas.width = window.innerWidth;
+//     canvas.height = window.innerHeight;
+// });
 
 // canvas.addEventListener('click', (event) => {
 //     const x = event.x;
